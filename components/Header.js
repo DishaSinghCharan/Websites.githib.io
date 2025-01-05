@@ -45,7 +45,7 @@ export default function Header() {
           <ul className="flex justify-center space-x-12 text-lg">
             <li>
               <Link
-                href="/Websites.githib.io/home"
+                href="/home"
                 className="relative group text-black transition-all duration-200 ease-in-out"
                 style={{ fontFamily: "Space Mono, monospace" }} // Space Mono font for nav items
               >
@@ -55,7 +55,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/Websites.githib.io/messages"
+                href="/messages"
                 className="relative group text-black transition-all duration-200 ease-in-out"
                 style={{ fontFamily: "Space Mono, monospace" }} // Space Mono font for nav items
               >

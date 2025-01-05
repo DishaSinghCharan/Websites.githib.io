@@ -26,7 +26,7 @@ export default function Login() {
     console.log("Logging in with:", { email, password });
 
     // On successful login, redirect to the details page
-    router.push("/Websites.githib.io/details"); // Redirect to details page
+    router.push("/details"); // Redirect to details page
   };
 
   return (
