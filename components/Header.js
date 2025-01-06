@@ -31,7 +31,7 @@ export default function Header() {
 
         {/* Donation Icon as Custom Image inside a small circle at Top Right */}
         <div className="absolute top-20 right-4 bg-blue-600 p-2 rounded-full shadow-lg hover:bg-blue-700">
-          <Link href="/Websites.githib.io/donation" passHref>
+          <Link href="/donation" passHref>
             <img
               src="/Websites.githib.io/LOVE.png" // Ensure this image is placed in the public folder
               alt="Give Love Icon"
