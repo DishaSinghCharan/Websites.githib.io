@@ -1,5 +1,7 @@
 import sqlite3 from "sqlite3";
 
+export const dynamic = "force-static"; // Force static generation
+export const revalidate = 10; // Revalidate every 10 seconds
 export async function POST(req) {
   const { user1_id, user2_id } = await req.json();
 
