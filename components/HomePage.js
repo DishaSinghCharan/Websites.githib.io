@@ -57,7 +57,7 @@ const HomePage = () => {
       }
 
       try {
-        const response = await fetch("//Websites.githib.io/match", {
+        const response = await fetch("/Websites.githib.io/match", {
           method: "POST",
           body: JSON.stringify({
             user1_id: currentUserId,
