@@ -21,7 +21,7 @@ export default function ThankYou() {
       setDonated(true);
 
       setTimeout(() => {
-        router.push("/Websites.githib.io/home");
+        router.push("/home");
       }, 2000);
     }
   };
@@ -37,7 +37,7 @@ export default function ThankYou() {
       </Head>
 
       <img
-        src="/logo.jpeg"
+        src="/Websites.githib.io/logo.jpeg"
         alt="FAM4U Logo"
         className="mb-8 w-32 h-32 object-contain mt-3"
       />

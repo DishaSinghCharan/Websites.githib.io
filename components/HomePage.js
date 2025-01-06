@@ -17,7 +17,7 @@ const HomePage = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await fetch("/Websites.githib.io/users");
+        const res = await fetch("/users");
         if (!res.ok) throw new Error("Failed to fetch users");
         const data = await res.json();
         setUsers(data);
@@ -29,7 +29,7 @@ const HomePage = () => {
 
     const fetchMatchedUsers = async () => {
       try {
-        const res = await fetch("/Websites.githib.io/matches");
+        const res = await fetch("/matches");
         if (!res.ok) throw new Error("Failed to fetch matched users");
         const data = await res.json();
         setMatchedUsers(data);
@@ -57,7 +57,7 @@ const HomePage = () => {
       }
 
       try {
-        const response = await fetch("/Websites.githib.io/match", {
+        const response = await fetch("//Websites.githib.io/match", {
           method: "POST",
           body: JSON.stringify({
             user1_id: currentUserId,
